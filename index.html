@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="The personal profile of Osang Hopewell. Learn more about his story, interests, and ambitions.">
+  <meta name="author" content="Osang Hopewell">
+  <meta name="theme-color" content="#090909">
+  <meta property="og:title" content="Osang Hopewell | Official Personal Profile">
+  <meta property="og:description" content="A personal profile sharing the story, interests, and ambitions of Osang Hopewell.">
+  <meta property="og:type" content="profile">
+  <title>Osang Hopewell | Personal Profile</title>
+  <style>
+    :root { --bg:#090909; --panel:#141414; --gold:#d7b15b; --cream:#f4efe4; --muted:#b8b2a7; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; background:var(--bg); color:var(--cream); font-family:Arial,Helvetica,sans-serif; line-height:1.6; }
+    a { color:inherit; }
+    .wrap { width:min(1100px, 92%); margin:auto; }
+    header { padding:22px 0; border-bottom:1px solid #29251b; }
+    .nav { display:flex; justify-content:space-between; align-items:center; gap:20px; }
+    .brand { color:var(--gold); font-weight:800; letter-spacing:2px; font-size:1rem; text-decoration:none; }
+    nav { display:flex; gap:22px; flex-wrap:wrap; }
+    nav a { color:var(--muted); text-decoration:none; font-size:.9rem; }
+    nav a:hover { color:var(--gold); }
+    .hero { min-height:76vh; display:grid; grid-template-columns:1.05fr .95fr; align-items:center; gap:52px; padding:70px 0; }
+    .eyebrow { color:var(--gold); text-transform:uppercase; letter-spacing:3px; font-size:.75rem; font-weight:bold; }
+    h1 { font-size:clamp(2.8rem,7vw,5.8rem); line-height:.98; margin:18px 0 24px; letter-spacing:-2px; }
+    h1 span { color:var(--gold); }
+    .intro { color:var(--muted); max-width:540px; font-size:1.08rem; }
+    .actions { display:flex; gap:14px; flex-wrap:wrap; margin-top:30px; }
+    .btn { display:inline-block; padding:12px 19px; border:1px solid var(--gold); text-decoration:none; border-radius:3px; font-weight:bold; }
+    .btn.primary { background:var(--gold); color:#111; }
+    .photo-frame { padding:12px; border:1px solid #5a4822; background:linear-gradient(145deg,#292116,#111); }
+    .photo-frame img { display:block; width:100%; max-height:590px; object-fit:cover; object-position:center 45%; filter:saturate(.88); }
+    section { padding:70px 0; border-top:1px solid #24211b; }
+    h2 { font-size:clamp(2rem,4vw,3rem); margin:10px 0 18px; }
+    .about-grid { display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:start; }
+    .card { background:var(--panel); padding:26px; border-left:3px solid var(--gold); }
+    .card h3 { margin-top:0; color:var(--gold); }
+    .note { color:var(--muted); font-size:.9rem; }
+    footer { padding:28px 0; border-top:1px solid #24211b; color:var(--muted); font-size:.85rem; }
+    @media(max-width:760px) {
+      .hero { grid-template-columns:1fr; gap:32px; padding:48px 0; }
+      .photo-frame { max-width:520px; }
+      .about-grid { grid-template-columns:1fr; }
+      .nav { align-items:flex-start; flex-direction:column; }
+      nav { gap:16px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#home">OSANG HOPEWELL</a>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#interests">Interests</a>
+        <a href="#connect">Connect</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap hero" id="home">
+      <div>
+        <div class="eyebrow">Personal Profile</div>
+        <h1>OSANG<br><span>HOPEWELL</span></h1>
+        <p class="intro">Welcome to my corner of the internet. This is where I share my story, interests, goals, and the journey I’m building one step at a time.</p>
+        <div class="actions">
+          <a class="btn primary" href="#about">Get to know me</a>
+          <a class="btn" href="#connect">Connect</a>
+        </div>
+      </div>
+      <div class="photo-frame">
+        <img src="osang-hopewell-photo.jpeg" alt="Photo supplied for Osang Hopewell's personal profile">
+      </div>
+    </div>
+
+    <section id="about">
+      <div class="wrap about-grid">
+        <div>
+          <div class="eyebrow">A little about me</div>
+          <h2>My story.<br><span style="color:var(--gold)">My journey.</span></h2>
+        </div>
+        <div>
+          <p>I’m Osang Hopewell. This profile is a place to introduce myself, share what matters to me, and document my progress toward the goals I set for myself.</p>
+          <p>I believe a personal journey is shaped by curiosity, consistency, learning, and the courage to keep moving forward.</p>
+          <p class="note">This is a starter biography. Add your hometown, background, personal achievements, and other details you’re comfortable making public before publishing.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="interests">
+      <div class="wrap">
+        <div class="eyebrow">What matters to me</div>
+        <h2>Interests & ambitions</h2>
+        <div class="about-grid">
+          <div class="card">
+            <h3>Personal growth</h3>
+            <p>Learning new things, developing my skills, and becoming better through experience.</p>
+          </div>
+          <div class="card">
+            <h3>My journey</h3>
+            <p>A space to share my interests, milestones, projects, and future achievements as they happen.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="connect">
+      <div class="wrap">
+        <div class="eyebrow">Stay connected</div>
+        <h2>Find me online</h2>
+        <p class="intro">Add your public social-media profile links here so people can find the right accounts.</p>
+        <p class="note">Before publishing, replace this note with your Instagram, TikTok, Facebook, or other public profile links. Do not add private contact details unless you want them public.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">© <span id="year"></span> Osang Hopewell · Personal profile</div>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
